@@ -28,7 +28,7 @@ gulp.task('build',
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default',
-  gulp.series('build', server, watch));
+  gulp.series('build'));
 
 // Build emails, then send to litmus
 gulp.task('litmus',
